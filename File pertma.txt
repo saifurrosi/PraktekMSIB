@@ -1,5 +1,5 @@
 Rincian Pembelajaran
-1. HTML dan CSS
+1. Web Design
 2. JS
 3. GIThub
 4. PHP
@@ -7,3 +7,4 @@ Rincian Pembelajaran
 6. PHP dan MySQL
 7. Laravel
 8. Rest API
+9. Final Projeck

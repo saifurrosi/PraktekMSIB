@@ -1,0 +1,8 @@
+ini adalah rincian pembelajaran terbaru
+1. HTML Dan CSS
+2. JS
+3. GIThub
+4. Laravel
+5. PHP
+6. MySL
+7. Rest API

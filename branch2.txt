@@ -1,5 +1,5 @@
 ini adalah rincian pembelajaran terbaru
-1. HTML Dan CSS
+1. Web Design
 2. JS
 3. GIThub
 4. Laravel
@@ -7,3 +7,4 @@ ini adalah rincian pembelajaran terbaru
 6. MySL
 7. Larave
 8. Rest API
+9. Final Projeck

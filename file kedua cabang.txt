@@ -6,3 +6,4 @@ ini adalah rincian pembelajaran terbaru
 5. PHP
 6. MySL
 7. Rest API
+8. tiktok

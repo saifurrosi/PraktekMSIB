@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 JS</title>
+</head>
+<body>
+    <marquee onmouseover="stop()" onmouseout="star()" >
+    <h3>Menghitung pendapatan Pengawai</h3></marquee>
+    <hr>
+    <script>
+        //Deklarasi dan inisialisasi variabel
+        var nama = "Saifur Rosi"
+        var jabatan = "Manager"
+        var status = "jomblo"
+
+        //Struktur Kendali
+    if (jabatan == 'Manager'){
+        gaji = 100000000 ;
+    }
+    else if(jabatan == 'Asisten Manager'){
+        gaji = 8000000 ;
+    }
+    else if(jabatan == 'Staf'){
+        gaji = 5000000 ; 
+    }
+    else {
+        gaji = 0;
+    }
+    let hasil = 1;
+    let gaji_pokok = gaji * hasil;
+    let tunjab = (jabatan == 'Manager') ? 0.1 * gaji_pokok : 0;
+    let bpjs = (jabatan == 'Manager') ? 0.1 * gaji_pokok : 0;
+    let tunkel = (jabatan == 'Manager') ? 0.1 * gaji_pokok : 0;
+    let total_gaji =gaji_pokok + tunjab + bpjs + tunkel;
+    
+    document.write("pegawai :" + nama + 
+    "<br>" + "jabatan :" + jabatan +
+    "<br>" + "status :" + status +
+    "<br>" + "<br>" + 
+    "gaji pokok :" + gaji_pokok +
+    "<br>" + "tunjangan jabatan :" + tunjab +
+    "<br>" + "bpjs :" + bpjs +
+    "<br>" + "tunjangan berkeluarga :" + tunkel +
+    "<hr>" + "total gaji :" + total_gaji );
+    
+   
+    //  
+    // document.write("Nama : " + nama +
+    // "<br> jabatan : " + jabatan +
+    // "<br> gaji : " + gaji +
+    // //
+
+    </script>
+</body>
+</html>

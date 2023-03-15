@@ -1,0 +1,22 @@
+<marquee >
+    belajar dom dan event handle
+</marquee>
+<form id="frm">
+    Nama : <input type="text" name="nama"/>
+    kelas : <input type="text" name="kelas"/>
+
+    <input type="button" name="proses" value="salam" onclick="salam()"/>
+</form>
+<h1 id="hasil"></h1>
+<script>
+    function salam(){
+        let siswa = document.getElementById('frm').nama.value;
+        let kelas = document.getElementById('frm').kelas.value;
+
+        let input = 'selamat pagi' + siswa + '<br>kelas : ' +kelas;
+        let no_input = 'maaf nama anda dan kelas belum terisi';
+        let hasil = (siswa && kelas != '') ? input : no_input;
+
+        document.getElementById('hasil').innerHTML = hasil;
+    }
+</script>

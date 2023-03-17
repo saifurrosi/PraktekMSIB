@@ -1,12 +1,11 @@
 function dataPerson(){
     let forms = document.getElementById('frm');
     let nama = forms.nama.value;
-    let pekerjaan = forms.nama.value;
-    let hobby = forms.hobby.value;
-    let data = `input data :
+    let pekerjaan = forms.pekerjaan.value;
+    let hobby = forms.hoby.value;
+    let data = `Input data :
     <br> Nama: ${nama}
-    <br> pekerjaan: ${pekerjaan}
-    <br> hobby: ${hobby}`;
+    <br> Pekerjaan: ${pekerjaan}
+    <br> hobby : ${hobby}`;
     document.getElementById('hasil').innerHTML = data;
-   
 }

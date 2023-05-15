@@ -1,0 +1,22 @@
+1.Sistem informasi penjualan online
+
+2. A. user bisa melihat di halaman home ,deskripsi kaos, jika ingin masukan keranjang ,harus login terlebih dahulu,jika sudah user bisa melakukan orderan
+ B. Admin dapat melihat, menambahkan, mengupdate dan menghapus tabel-tabel yang ada di dalam admin * 
+
+3. 
+
+Fitur
+Home = tampilan semua produk
+Kategori
+Order
+Cart / keranjang 
+Login
+Log out
+
+
+*
+Membuat data kaos
+Data customer 
+Data kategori
+Data transaksi
+Data user
